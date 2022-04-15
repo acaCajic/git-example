@@ -1,5 +1,6 @@
 var numbers = [1, 2, 3, 4, 5, 6];
 var array = [];
+var secondArray = [1, 2, 3, 4, 5];
 
 const button = document.getElementsByClassName(".btn");
 const countParagraph = document.getElementsByClassName(".counter");
@@ -17,3 +18,4 @@ numbers.forEach((number) => {
     console.log(number);
   }
 });
+console.log("new version");
